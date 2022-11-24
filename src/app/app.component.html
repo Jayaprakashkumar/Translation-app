@@ -1,0 +1,15 @@
+<div class="header">
+  <h3>{{'home.header' | translate}}</h3>
+</div>
+<div>
+  <div class="select-box-wrapper">
+    <div class="select-box">
+      <label for="">{{'home.select' | translate}}</label>
+      <select #langSelect (change)="translate.use(langSelect.value)">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{lang}}</option>
+      </select>
+    </div>
+  </div>
+  <h2>{{'home.title' | translate}}</h2>
+  <p>{{'home.para' | translate}}</p>
+</div>

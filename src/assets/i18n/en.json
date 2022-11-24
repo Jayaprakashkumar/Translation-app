@@ -1,0 +1,9 @@
+{
+    "home":{
+        "header" : "Multilingual Application",
+        "title" : "Welcome to Angular application",
+        "para": "Testing the applation with multiple languages",
+        "select" : "Select languages"
+
+    }
+}

@@ -1,0 +1,22 @@
+.header {
+    background-color: #130606;
+    color: orange;
+    padding: 0.8em;
+    h3 {
+        margin: 0;
+    }
+}
+.select-box-wrapper {
+    display: flex;
+    justify-content: end;
+    .select-box {
+        margin-top: 0.5em;
+        display: flex;
+        flex-direction: column;
+
+        select {
+            padding: 0.8em;
+            margin-top: 0.5em;
+        }
+    }
+}

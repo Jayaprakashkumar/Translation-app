@@ -1,0 +1,9 @@
+{
+    "home":{
+        "header" : "Application multilingue",
+        "title" : "Bienvenue dans l'application angulaire",
+        "para": "Tester l'application avec plusieurs langues",
+        "select" : "Sélectionnez les langues"
+
+    }
+}
